@@ -28,12 +28,12 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
             flavor = "tap-unless-interrupted";
             hold-trigger-key-positions = <7 21 41 40 59 39 7 8 9 10 11 12 13 21 22 23 24 25 26 27 38 39 40 41 42 43 44 45 46 47 58 59 60 61 62 63 64 65 66 67 76 77 78 79 80 81 82 83>;
             hold-trigger-on-release;
             retro-tap;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <-1>;
         };
         hm_r: hm_r {
             compatible = "zmk,behavior-hold-tap";
@@ -43,12 +43,12 @@
                 <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
             flavor = "tap-unless-interrupted";
             retro-tap;
             hold-trigger-key-positions = <53 0 1 2 3 4 5 6 14 15 16 17 18 19 20 28 29 30 31 32 33 34 35 36 37 48 49 50 51 52 53 54 55 56 57 68 69 70 71 72 73 74 75>;
             hold-trigger-on-release;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <-1>;
         };
     };
 
